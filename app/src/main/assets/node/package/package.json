@@ -1,0 +1,15 @@
+{
+  "name": "zaid-ashiq-ultra-whatsapp-engine",
+  "version": "1.0.0",
+  "description": "Bundled local WhatsApp Multi-Device & JS Automation Engine for ZAID ASHIQ X ULTRA V. CODER",
+  "main": "../scripts/index.js",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "pino": "^9.4.0",
+    "ws": "^8.18.0"
+  }
+}

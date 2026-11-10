@@ -1,0 +1,6 @@
+{
+  "name": "Zaid Ashiq Ultra Coder",
+  "description": "Standalone Android WhatsApp automation suite with local encrypted session storage, prefix command system, JS plugin sandbox, and message scheduler.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

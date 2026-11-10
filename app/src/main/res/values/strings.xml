@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Zaid Ashiq Ultra Coder</string>
+    <string name="app_display_header">ZAID ASHIQ X ULTRA V. CODER</string>
+    <string name="app_subtitle">Your Personal WhatsApp Automation Suite</string>
+    <string name="action_connect_whatsapp">CONNECT WHATSAPP</string>
+    <string name="action_start_engine">START ENGINE</string>
+    <string name="action_stop_engine">STOP ENGINE</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="notif_channel_name">WhatsApp Automation Engine</string>
+    <string name="notif_channel_desc">Keeps the local WhatsApp automation engine active in the foreground.</string>
+</resources>

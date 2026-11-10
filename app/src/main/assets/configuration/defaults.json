@@ -1,0 +1,45 @@
+{
+  "appName": "ZAID ASHIQ X ULTRA V. CODER",
+  "subtitle": "Your Personal WhatsApp Automation Suite",
+  "version": "1.0.0-ULTRA",
+  "engine": {
+    "mode": "HYBRID_IN_APK_AND_LOCAL_IPC",
+    "localIpcHost": "127.0.0.1",
+    "localIpcPort": 19480,
+    "defaultPrefix": ".",
+    "reconnectInitialDelayMs": 2000,
+    "reconnectMaxDelayMs": 32000,
+    "reconnectMultiplier": 2.0,
+    "connectionTimeoutMs": 20000,
+    "maxAutoRepliesPerMinute": 15,
+    "duplicateSuppressionWindowSec": 45,
+    "defaultReplyDelayMs": 1200
+  },
+  "automation": {
+    "autoReplyEnabled": true,
+    "welcomeEnabled": true,
+    "awayEnabled": false,
+    "businessHoursEnabled": false,
+    "groupRepliesEnabled": false,
+    "businessStartHour": 9,
+    "businessEndHour": 18,
+    "welcomeMessage": "Assalam-o-Alaikum! Welcome to ZAID ASHIQ X ULTRA V. CODER automated session. Type .menu or .help to view available commands.",
+    "awayMessage": "Currently away from my device. Your message has been logged locally — I will reply shortly.",
+    "businessHoursMessage": "Thank you for reaching out outside business hours (09:00 - 18:00). We will respond during active hours."
+  },
+  "coreCommands": [
+    { "name": "help", "category": "Core", "usage": ".help [command]", "description": "List all enabled automation commands and usage syntax", "permission": "PUBLIC" },
+    { "name": "menu", "category": "Core", "usage": ".menu", "description": "Display categorized ZAID ASHIQ X ULTRA V. CODER interactive command menu", "permission": "PUBLIC" },
+    { "name": "ping", "category": "Diagnostics", "usage": ".ping", "description": "Check local engine health, latency, and uptime", "permission": "PUBLIC" },
+    { "name": "info", "category": "Diagnostics", "usage": ".info", "description": "Show runtime architecture, session encryption, and active plugin telemetry", "permission": "PUBLIC" },
+    { "name": "owner", "category": "Core", "usage": ".owner", "description": "Display device owner profile and automation suite signature", "permission": "PUBLIC" },
+    { "name": "time", "category": "Utilities", "usage": ".time", "description": "Return current local device time and timezone", "permission": "PUBLIC" },
+    { "name": "date", "category": "Utilities", "usage": ".date", "description": "Return current local calendar date", "permission": "PUBLIC" },
+    { "name": "status", "category": "Diagnostics", "usage": ".status", "description": "Report WhatsApp session state, rate limiter load, and pending scheduled tasks", "permission": "OWNER" },
+    { "name": "schedule", "category": "Scheduler", "usage": ".schedule <minutes> | <message>", "description": "Schedule a delayed message on the local SQLite task queue", "permission": "OWNER" },
+    { "name": "cancel", "category": "Scheduler", "usage": ".cancel <taskId>", "description": "Cancel a pending scheduled task by ID", "permission": "OWNER" },
+    { "name": "autoreply", "category": "Automation", "usage": ".autoreply", "description": "Inspect current automatic reply status and active rate limits", "permission": "OWNER" },
+    { "name": "autoreply on", "category": "Automation", "usage": ".autoreply on", "description": "Enable automatic keyword, welcome, and away replies", "permission": "OWNER" },
+    { "name": "autoreply off", "category": "Automation", "usage": ".autoreply off", "description": "Disable automatic replies while keeping manual commands active", "permission": "OWNER" }
+  ]
+}

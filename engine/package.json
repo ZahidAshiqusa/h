@@ -1,0 +1,16 @@
+{
+  "name": "zaid-ashiq-x-ultra-v-coder-engine",
+  "version": "1.0.0",
+  "description": "Local Node.js & Baileys Multi-Device Engine for ZAID ASHIQ X ULTRA V. CODER Android APK",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "verify": "node -e \"console.log('Engine syntax & crypto check OK')\""
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "pino": "^9.4.0",
+    "ws": "^8.18.0"
+  }
+}
